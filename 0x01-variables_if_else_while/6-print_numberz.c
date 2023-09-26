@@ -1,23 +1,19 @@
 #include <stdio.h>
-
+#include <unistd.h>
 /**
  * main - Entry point
- *
- * Description: This program prints all single-digit numbers of base 10
- *              starting from 0, followed by a new line.
- *
- * Return: Always 0 (Success)
+ * Description: prints char below 10
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
-	int i; // Use tabs for indentation
+	int a;
 
-	for (i = 0; i < 10; i++) // Use tabs for indentation
+	for (a = 0; a < 10; a++)
 	{
-		putchar(i + '0'); // Use tabs for indentation
+		putchar(a + '0');
 	}
-
-	putchar('\n'); // Use tabs for indentation
-
+	putchar('\n');
 	return (0);
 }
