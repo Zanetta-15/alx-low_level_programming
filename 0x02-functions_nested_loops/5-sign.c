@@ -26,6 +26,7 @@ int print_sign(int n)
         return (-1);
     }
 
-    // Handle the case when none of the conditions are met.
+    /* Handle the case when none of the conditions are met. */
     return (-2); // You can choose an appropriate value here.
 }
+
