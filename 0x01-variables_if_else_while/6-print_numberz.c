@@ -10,14 +10,14 @@
  */
 int main(void)
 {
-    int i;
+	int i; // Use tabs for indentation
 
-    for (i = 0; i < 10; i++)
-    {
-        putchar(i + '0');
-    }
+	for (i = 0; i < 10; i++) // Use tabs for indentation
+	{
+		putchar(i + '0'); // Use tabs for indentation
+	}
 
-    putchar('\n');
+	putchar('\n'); // Use tabs for indentation
 
-    return (0);
+	return (0);
 }
