@@ -2,7 +2,8 @@
 
 /**
  * print_sign - prints the sign of a number
- * @n: the int to check
+ * @n: the integer to check
+ *
  * Return: 1 and prints + if n is greater than zero
  * 0 and prints 0 if n is zero
  * -1 and prints - if n is less than zero
@@ -28,5 +29,5 @@ int print_sign(int n)
     /* Handle other cases here if needed */
 
     /* Default return statement in case none of the conditions are met */
-    return 0;
+    return (0);
 }
