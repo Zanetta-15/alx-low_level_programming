@@ -25,9 +25,8 @@ int print_sign(int n)
         return (-1);
     }
 
-    // Handle other cases here if needed
+    /* Handle other cases here if needed */
 
-    // Default return statement in case none of the conditions are met
+    /* Default return statement in case none of the conditions are met */
     return 0;
 }
-
