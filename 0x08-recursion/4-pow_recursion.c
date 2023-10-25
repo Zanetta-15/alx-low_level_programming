@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * _pow_recursion - function name
- * @x: parameter 1
- * @y: parameter 2
- * Return: value of a given number passed to the function
+ * pow_recursion - Calculate the power of a number recursively.
+ * @x: the base number
+ * @y: the exponent
+ * Return: the result of x^y
  */
-int _pow_recursion(int x, int y)
+int pow_recursion(int x, int y)
 {
     if (y < 0)
         return (-1);
     else if (y == 0)
         return (1);
     else
-        return (x * _pow_recursion(x, (y - 1));
+        return (x * pow_recursion(x, (y - 1)));
 }
