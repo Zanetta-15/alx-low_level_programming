@@ -6,23 +6,24 @@
  * @size: The size of the array
  * @c: The character to assign to each element
  *
- * Return: If 'size' is 0 or if memory allocation fails, returns NULL. Otherwise, returns the array.
+ * Return: If 'size' is 0 or if memory allocation fails, returns NULL.
+ *         Otherwise, returns the array.
  */
 char *create_array(unsigned int size, char c)
 {
-	char *str;
-	unsigned int i;
+    char *str;
+    unsigned int i;
 
-	if (size == 0)
-		return (NULL);
+    if (size == 0)
+        return (NULL);
 
-	str = malloc(sizeof(char) * size);
+    str = malloc(sizeof(char) * size);
 
-	if (str == NULL)
-		return (NULL);
+    if (str == NULL)
+        return (NULL);
 
-	for (i = 0; i < size; i++)
-		str[i] = c;
+    for (i = 0; i < size; i++)
+        str[i] = c;
 
-	return (str);
+    return (str);
 }
