@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _pow - func calculates (base ^ power)
  * @base: base of the exponent
